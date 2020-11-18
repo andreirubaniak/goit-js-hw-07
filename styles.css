@@ -1,0 +1,27 @@
+.title__task {
+  text-align: center;
+  background-color: blueviolet;
+}
+
+.gallery__image {
+  width: 80%;
+  height: 70%;
+}
+
+#gallery {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}

@@ -4,19 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     
+    <h2 class="title__task">Задание 1</h2>
+    <ul id="categories">
+      <li class="item">
+        <h2>Животные</h2>
+    
+        <ul>
+          <li>Кот</li>
+          <li>Хомяк</li>
+          <li>Лошадь</li>
+          <li>Попугай</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Продукты</h2>
+    
+        <ul>
+          <li>Хлеб</li>
+          <li>Петрушка</li>
+          <li>Творог</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Технологии</h2>
+    
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 class="title__task">Задание 2</h2>
+    
+    <ul id="ingredients"></ul>
+    
+    <h2 class="title__task">Задание 3</h2>
+
+    <ul id="gallery"></ul>
+
+    <h2 class="title__task">Задание 4</h2>
+
+     <div id="counter">
+      <button type="button" data-action="decrement">-1</button>
+      <span id="value">0</span>
+      <button type="button" data-action="increment">+1</button>
+     </div>
+
+    <h2 class="title__task">Задание 5</h2>
+    <input type="text" placeholder="Ваше имя?" id="name-input" />
+    <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+
+    <h2 class="title__task">Задание 6</h2>
+
+    <input type="text" id="validation-input" data-length="6" placeholder="Введи 6 символов" />
+
+    <h2 class="title__task">Задание 7</h2>
+
+    <input id="font-size-control" type="range" />
+    <br />
+    <span id="text">Абракадабра!</span>
+
+    <!-- <h2 class="title__task">Задание 8</h2>
+
+    <div id="controls">
+      <input type="number" min="0" max="100" step="1" />
+      <button type="button" data-action="render">Создать</button>
+      <button type="button" data-action="destroy">Очистить</button>
+    </div>
+    
+    <div id="boxes"></div> -->
+
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
-    <!-- <script src="task6_1.js" type="module"></script> -->
-    <!-- <script src="task6_2.js" type="module"></script> -->
-    <!-- <script src="task6_3.js" type="module"></script> -->
-    <!-- <script src="task6_4.js" type="module"></script> -->
-    <!-- <script src="task6_5.js" type="module"></script> -->
-    <!-- <script src="task6_6.js" type="module"></script> -->
-    <!-- <script src="task6_7.js" type="module"></script> -->
-    <!-- <script src="task6_8.js" type="module"></script> -->
-    <!-- <script src="task6_9.js" type="module"></script> -->
-    <script src="task6_10.js" type="module"></script>
-  </body>
+    <script src="task-1.js" type="module"></script>
+    <script src="task-2.js" type="module"></script>
+    <script src="task-3.js" type="module"></script>
+    <script src="task-4.js" type="module"></script>
+    <script src="task-5.js" type="module"></script>
+    <script src="task-6.js" type="module"></script>
+    <script src="task-7.js" type="module"></script>
+    <!-- <script src="task-8.js" type="module"></script> -->
+      </body>
 </html>
